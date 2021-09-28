@@ -18,36 +18,46 @@ nav {
 .comprar {
     color: rgba(47, 255, 75, 0.514) !important;
   }
-.conf-ba{
-      padding-top: 150px;
-      padding-right: 80px;
-      color: white;
-  }
-main{
-      height: 570px;
-      background-image: url(./img/ba1.jpg); 
-      background-size: 1500px;
-  }
-.btn{
+.card-img{
+    height: 550px;
+}
+.conf-bsas{
+    margin-top: 200px;
+    margin-right: 100px;
+} 
+.btn-1{
        margin: 8px;
   }
-.oradores{
-    text-align: center;
-}
-#conoceMas{
-    display: flex;
-         
-}
-.gris{
-    background-color: rgb(58, 57, 57);
+.btn-2{
+    background-color: green;
     color: white;
-    width: 675px;
-    height: 400px;
-    padding: 20px;
+    margin: 8px;
 }
-img{
-    width: 675px;
-    height: 400px;
+#losOradores{
+    margin-bottom: 30px;
+}
+#conviértete{
+    text-align: center;
+    margin-top: 10px;
+}
+.col-card{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-text{
+    font-size: 13px;
+}
+.playa {
+    margin-right: 1px;
+    padding-right: 0px;
+    width: 50%;
+  }
+.gris {
+    background-color: #353a40;
+    color: white;
+  }
+.text {
+    font-size: 13px;
 }
 .titulo{
     text-align: center;
@@ -57,25 +67,17 @@ img{
     text-decoration: underline;
     text-decoration-style: dotted;
 }
-.form{
-    width: 100%;
-    max-width: 650px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.datos {
-    width: 300px;
+.btn-enviar{
+    background-color: rgb(121, 223, 74);
+    color: white;
     margin: 10px;
+    width: 100%
 }
-.form-control{
-    height: 159px;
-    width: 620px;
+.col-nombre{
+    margin-bottom: 10px;
 }
-.btn{
-    width: 620px;
-    margin: 20px;
+.col-apellido{
+    margin-bottom: 10px;
 }
 footer{
     background-color: rgb(17, 39, 80);
@@ -86,4 +88,3 @@ footer{
     vertical-align: middle !important;
     font-size: small;
     color:white;
-}
