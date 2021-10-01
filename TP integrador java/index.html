@@ -13,16 +13,13 @@
 
 <body>
     <!-- nav -->
-    <div class="">
           <nav class="px-5 navbar navbar-expand-lg navbar-dark bg-gray">
             <div class="px-5 container-fluid">
                 <a class="pb-2 pt-0 navbar-brand" href="#"><img src="./img/codoacodo.png" alt="" class="logo" />Conf Bs
                     As</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      </button>
                 <div class="pb-1 collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li>
@@ -44,12 +41,13 @@
                 </div>
             </div>
         </nav>
-    </div>  
+    
     
       <!-- Img y conf Bs As  -->
-    <main>
+      <main>
+
       <div id="laConferencia">
-          <img src="./img/hawaii.jpg" class="card-img" alt="fondo">
+          <img src="./img/hawaii.jpg" class="card-img" alt="fondo"> 
           <div class="card-img-overlay">
               <div class="conf-bsas text-end texto text-white">
                 <h1>Conf Bs As</h1>
@@ -135,25 +133,26 @@
               </p>
           </div>
         </div>
+        </div>
+
+      <!-- Titulo  -->
+      <div id="conviértete">
+        <p>CONVIÉRTETE EN UN</p>
+        <h2>ORADOR</h2>
+        <p class="anotate">
+            Anótate como orador para dar una
+            <span class="puntos">charla ignite</span>. Cuéntanos de qué quieres hablar!
+        </p>
       </div>
 
-       <!-- Titulo  -->
-    <div id="conviértete">
-      <p>CONVIÉRTETE EN UN</p>
-      <h2>ORADOR</h2>
-      <p class="anotate">
-          Anótate como orador para dar una
-          <span class="puntos">charla ignite</span>. Cuéntanos de qué quieres hablar!
-      </p>
-    </div>
-
-         <!-- Form -->
+         <!-- Form -->   
             <div class="container">
-              <div class="row justify-content-center"> 
-                  <div class="col col-nombre">
+              <div class="row d-flex justify-content-center"> 
+                <form class="col-7">
+                  <div class="col">
                     <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
                   </div>
-                  <div class="col col-apellido">
+                  <div class="col">
                     <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
                   </div>
                   <div class="form">
@@ -162,8 +161,10 @@
                   <div class="form-text">Recuerda incluir in título para tu charla</div>
                       <button type="button" class="btn btn-enviar">Enviar</button>
                   </div>
+                </form>
               </div>   
             </div>
+          
         
           <!-- Footer -->
           <footer>

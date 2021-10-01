@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     position: relative;
+    scroll-behavior: smooth;
   }
 body {
     padding-right: 2.7px;
@@ -73,14 +74,8 @@ nav {
     margin: 10px;
     width: 100%
 }
-.col-nombre{
-    margin-bottom: 10px;
-}
-.col-apellido{
-    margin-bottom: 10px;
-}
 footer{
-    background-color: rgb(17, 39, 80);
+    background: linear-gradient(rgb(11, 25, 51), rgb(17, 39, 80));
     padding: 20px;
     height: 80px;
     text-align: center;
